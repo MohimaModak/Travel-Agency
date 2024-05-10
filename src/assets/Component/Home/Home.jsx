@@ -23,8 +23,8 @@ const Home = () => {
           <source src={video} className="video" />
         </video>
       </div>
-      <div className="absolute justify-center bannerFont flex items-center inset-0 text-center ">
-        <div className="background text-white p-5 rounded-3xl border">
+      <div className="absolute justify-center bannerFont  flex items-center inset-0 text-center ">
+        <div className="background text-white p-5 rounded-3xl shadow-2xl">
           {formVisibility ? (
             <div className="text-center md:text-4xl font-bold "></div>
           ) : (

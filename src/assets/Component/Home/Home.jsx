@@ -2,6 +2,7 @@ import { useState } from "react";
 import video from "../../Gallery/update.mp4";
 import "./Home.css";
 import Travel from "../Travel/Travel";
+import Vacation from "../Vacation/Vacation";
 
 const Home = () => {
   const [formVisibility, setFormVisibility] = useState(false);
@@ -173,6 +174,7 @@ const Home = () => {
       </div>
       </div>
       <Travel></Travel>
+      <Vacation></Vacation>
     </div>
   );
 };

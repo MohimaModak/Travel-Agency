@@ -1,31 +1,18 @@
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=GFS+Didot&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Dosis:wght@200..800&family=GFS+Didot&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Gothic&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
+.vacationFont{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-  .travelHeading {
-    /* background: -webkit-linear-gradient(#eee, #333);
-    -webkit-text-fill-color: transparent; */
-  }
-  .font{
-    font-family: "Jost", sans-serif;
-  }
-  .gradient-text {
-    font-family: "Jost", sans-serif;
-    /* background-image: linear-gradient(to right, #84d7fd, #e5f8ee, );
-    -webkit-background-clip: text; 
-    background-clip: text;
-    color: transparent;  */
+  .vacationHeading{
+    letter-spacing: 0.5px;
   }
 
 
 
-  /* @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Dosis:wght@200..800&family=GFS+Didot&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-
-
-  .about{
-    font-family: "Briem Hand", cursive;
-   
-  } */
   

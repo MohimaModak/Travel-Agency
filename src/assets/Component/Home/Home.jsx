@@ -1,5 +1,6 @@
 import { useState } from "react";
-import video from "../../Gallery/update.mp4";
+// import video from "../../Gallery/update.mp4";
+import video from "../../Gallery/banner.mp4";
 import "./Home.css";
 import Travel from "../Travel/Travel";
 import Vacation from "../Vacation/Vacation";
@@ -11,7 +12,7 @@ const Home = () => {
     setFormVisibility(!formVisibility);
   };
   return (
-    <div className="">
+    <div className="vacationFont" >
     <div className="">
       <div className="relative">
         <video
@@ -24,15 +25,16 @@ const Home = () => {
           <source src={video} className="video" />
         </video>
       </div>
-      <div className="absolute justify-center bannerFont  flex items-center inset-0 text-center ">
+      <div data-aos="fade-up" className="absolute  justify-center bannerFont  flex items-center inset-0 text-center ">
         <div className="background text-white p-5 rounded-3xl shadow-2xl">
+         
           {formVisibility ? (
             <div className="text-center md:text-4xl font-bold "></div>
           ) : (
             <div>
-              <h1 className="text-4xl mb-3 bannerFont">Round Trip</h1>
+              <h1 className="text-4xl mb-3 bannerFont vacationHeading">Round Trip</h1>
               <div>
-                <select className="ml-2 mb-2 background text-center rounded-full p-2">
+                <select className="ml-2 mb-2 background px-3 rounded-full p-2">
                   <option disabled selected value="">
                     From
                   </option>
@@ -59,7 +61,7 @@ const Home = () => {
                   </option>
                 </select>
 
-                <select className="ml-2 mb-2 background text-center rounded-full p-2">
+                <select className="ml-2 mb-2 background rounded-full  p-2">
                   <option disabled selected value="">
                     To
                   </option>
@@ -110,7 +112,7 @@ const Home = () => {
 
           {formVisibility && (
             <div>
-              <h1 className="text-4xl mb-3 bannerFont">Multi City</h1>
+              <h1 className="text-4xl mb-3 vacationHeading">Multi Trip</h1>
               <div>
                 <select className="ml-2 mb-2 background text-center rounded-full p-2">
                   <option disabled selected value="">
